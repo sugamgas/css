@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box .a {
+            width: 100%;
+            height: 300px;
+            background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_PPfN261tgRs88djnatdxyWaqIvW0fxkA0Q&s");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            position: relative;
+
+
+
+        }
+
+        .box {
+            width: 400px;
+            border: 1px solid black;
+            margin: 0 550px;
+        }
+
+        .s {
+
+            display: block;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.6);
+            color: white;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            box-sizing: border-box;
+
+
+        }
+
+        .a:hover .s {
+            opacity: 1;
+        }
+        .m{
+            background-color: bisque;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="a">
+<div class="s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, quibusdam fuga expedita odio
+            porro possimus corrupti? Fugit illum nobis harum natus quisquam, soluta debitis aliquid. Cumque beatae
+            temporibus eveniet id.</div>
+        </div>
+        
+        <div class="m">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni rem incidunt iure rerum, ducimus illum
+            molestiae a mollitia porro accusamus esse, provident aut ipsam sequi, nobis ipsum blanditiis minus culpa?
+        </div>
+    </div>
+
+</body>
+
+</html>
