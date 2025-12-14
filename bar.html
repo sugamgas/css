@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bar</title>
+    <style>
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 700px;
+    height: 10px;
+    background: whitesmoke;
+    margin: 5% auto;
+    border: 1px solid black ;
+    border-radius: 50px;
+
+}
+.box::after{
+    content: "";
+    display: block;
+    width: 0px;
+
+height:8px ;
+background: blue;
+animation:anim 3s ease-in forwards ;
+
+}
+@keyframes anim{
+    from {}
+    to {
+        width: 80%;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    
+</body>
+</html>

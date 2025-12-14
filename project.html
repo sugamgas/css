@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<style>
+    * {
+            margin: 0;
+            box-sizing: border-box;
+            transition: 0.4s;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        :root{
+            --main-color:blueviolet;
+        }
+
+        #teams{
+            background: rgba(0, 0, 0, 0.3);
+            padding: 5%;
+        }
+
+        #teams .header{
+            text-align: center;
+            padding: 20px;
+        }
+        
+        #teams .header h2{
+            color: var(--main-color);
+            font-size: 30px;
+        }
+
+        #teams .header hr{
+            width: 150px;
+            margin: auto;
+            border: 1px solid rgb(60, 60, 60);
+        }
+        #teams .header h2::after{
+            content: '';
+            display: block;
+            width: 80px;
+            height: 2px;
+            background: rgb(0, 122, 143);
+            margin: auto;
+        }
+        #teams .header p{
+            color: rgb(54, 54, 54);
+            margin: 10px;
+        }
+
+        #teams .content{
+            padding: 20px 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        #teams .content .team-item{
+            width: 45%;
+            height: 150px;
+            border: 1px solid grey;
+            box-shadow: 0 0 6px;
+            padding: 10px;
+            display: flex;
+            margin: 20px;
+            border-radius: 8px;
+          
+        }
+
+        #teams .content .team-item .img{
+            width:130px ;
+            height: 100%;
+            border-radius: 50%;
+            box-shadow: 0 0 5px;
+            overflow: hidden;
+            margin: 0 10px;
+        }
+
+         #teams .content .team-item .details{
+            width: 300px;
+            padding: 5px;
+         }
+
+         #teams .team-item .details h3{
+            color: var(--main-color);
+         }
+         #teams .team-item .details p{
+            color: rgb(54, 54, 54);
+            margin: 2px 0 10px;
+         }
+
+          #teams .team-item .details hr{
+            width: 60px;
+            border: 1px solid rgb(70, 70, 70);
+          }
+
+         #teams .team-item .icons a{
+            color: rgb(43, 43, 43);
+            font-size: 16px;
+            margin: 0 10px 0 0;
+            /* border: 1px solid rgb(101, 101, 101); */
+            background:rgba(151, 151, 151, 0.9) ;
+            border-radius: 50%;
+            padding: 5px;
+         }
+</style>
+
+<body>
+   <div class="teams" id="teams">
+        <div class="header">
+            <h2>Teams</h2>
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa!</p>
+        </div>
+
+
+        <div class="content">
+            <div class="team-item">
+                <div class="img">
+                    <img src="https://t3.ftcdn.net/jpg/06/99/46/60/360_F_699466075_DaPTBNlNQTOwwjkOiFEoOvzDV0ByXR9E.jpg" alt="Team" width="100%" height="100%" loading="lazy">
+                </div>
+
+                <div class="details">
+                    <h3>Lorem, ipsum.</h3>
+                    <p><small>Lorem, ipsum dolor.</small></p>
+                    <hr>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+
+                    <div class="icons">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="team-item">
+                <div class="img">
+                    <img src="https://t3.ftcdn.net/jpg/06/99/46/60/360_F_699466075_DaPTBNlNQTOwwjkOiFEoOvzDV0ByXR9E.jpg" alt="Team" width="100%" height="100%" loading="lazy">
+                </div>
+
+                <div class="details">
+                    <h3>Lorem, ipsum.</h3>
+                    <p><small>Lorem, ipsum dolor.</small></p>
+                    <hr>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+
+                    <div class="icons">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="team-item">
+                <div class="img">
+                    <img src="https://t3.ftcdn.net/jpg/06/99/46/60/360_F_699466075_DaPTBNlNQTOwwjkOiFEoOvzDV0ByXR9E.jpg" alt="Team" width="100%" height="100%" loading="lazy">
+                </div>
+
+                <div class="details">
+                    <h3>Lorem, ipsum.</h3>
+                    <p><small>Lorem, ipsum dolor.</small></p>
+                    <hr>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+
+                    <div class="icons">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="team-item">
+                <div class="img">
+                    <img src="https://t3.ftcdn.net/jpg/06/99/46/60/360_F_699466075_DaPTBNlNQTOwwjkOiFEoOvzDV0ByXR9E.jpg" alt="Team" width="100%" height="100%" loading="lazy">
+                </div>
+
+                <div class="details">
+                    <h3>Lorem, ipsum.</h3>
+                    <p><small>Lorem, ipsum dolor.</small></p>
+                    <hr>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+
+                    <div class="icons">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            
+
+        </div>
+    </div>
+    
+</body>
+</html>
