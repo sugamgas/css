@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dental Clinic Hero</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: #ffffff;
+      color: #222;
+    }
+
+    .hero {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 60px 20px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: center;
+    }
+
+    .hero-image {
+      position: relative;
+    }
+
+    .hero-image img {
+      width: 100%;
+      border-radius: 16px;
+      display: block;
+    }
+
+    .cta-card {
+      position: absolute;
+      bottom: -30px;
+      left: 30px;
+      background: #fff;
+      padding: 24px 28px;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      max-width: 320px;
+    }
+
+    .cta-card h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .cta-card p {
+      font-size: 14px;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    .hero-content h1 {
+      font-size: 42px;
+      font-weight: 400;
+      margin-bottom: 24px;
+      line-height: 1.3;
+    }
+
+    .hero-content h1 strong {
+      font-weight: 700;
+    }
+
+    .quote {
+      font-style: italic;
+      font-size: 18px;
+      color: #333;
+      margin-bottom: 30px;
+      line-height: 1.7;
+    }
+
+    .hero-content p {
+      font-size: 16px;
+      color: #555;
+      line-height: 1.8;
+      margin-bottom: 22px;
+    }
+
+    @media (max-width: 900px) {
+      .hero {
+        grid-template-columns: 1fr;
+      }
+
+      .cta-card {
+        position: static;
+        margin-top: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="hero">
+    <div class="hero-image">
+      <img src="https://p.w3layouts.com/demos_new/template_demo/23-08-2021/dentition-liberty-demo_Free/1619898409/web/assets/images/home1.jpg" alt="Happy dental patient" />
+      <div class="cta-card">
+        <h3>Get a Appointment Today!</h3>
+        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+      </div>
+    </div>
+
+    <div class="hero-content">
+      <h1>A Warm <strong>Welcome</strong> and<br />a Beautiful <strong>Smile</strong></h1>
+
+      <p class="quote">“Our clients are our priority, we offer quality dental services with a team of specialists. More details about our services below”.</p>
+
+      <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+      <p>Sellen tesque libero ut justo, ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+  </section>
+
+</body>
+</html>
