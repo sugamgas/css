@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 70px;
+    border: 0.5px solid #f4f4f4;
+
+
+
+
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 50px;
+    height: 50px;
+
+
+
+}
+
+.img h5 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    text-wrap: nowrap;
+    color: #2e3441;
+}
+
+a {
+    text-decoration: none;
+    color: #2e3441;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+.container {
+    background-color: #1e2735;
+    width: 100%;
+    height: 450px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin: 40px auto;
+  
+}
+
+.text {
+    margin: 123px -190px;
+    line-height: 55px;
+
+}
+
+.text #s {
+    color: #0078ffcc;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+
+.text #a {
+    color: white;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .imag {
+    width: 25%;
+    height: 380px;
+    border: 1px solid #3B82F6;
+    margin: 30px 0px;
+    border-radius: 20px;
+    animation: anim 3s alternate infinite ease-in-out;
+    transition: transform 0.4s ease;
+    background: #393661;
+      box-shadow: 0px 0px 10px  rgb(24,119,242);;
+}
+
+.content>div:last-child {
+    display: flex;
+    gap: 50px;
+}
+
+.text h1 {
+    color: white;
+    font-weight: 800;
+    font-size: 45px;
+    font-family: sans-serif;
+    line-height: 45px;
+    letter-spacing: 0;
+
+}
+
+.img span {
+    color: #6c707a;
+    font-weight: 600;
+    font-size: 17px;
+
+}
+
+.tex2 {
+    color: #0078ffcc;
+}
+
+.text button#y {
+    width: 24%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #3B82F6;
+    color: #f4f4f4;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid #3B82F6;
+}
+
+@keyframes anim {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(10px);
+    }
+}
+
+.text button#l {
+    width: 24%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid #3B82F6;
+    color: #f4f4f4;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+.x img{
+    width: 30px ;
+    height: 30px;
+}
+
+               

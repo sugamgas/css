@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media queries</title>
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .main{
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            background-color: blueviolet;
+            height: 100vh;
+            flex-wrap: wrap;
+                gap: 20px;
+
+        }.main .box{
+            background: yellow;
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+        
+
+
+
+
+        }
+
+        @media screen and (max-width:881px) {
+            .main{
+                background: purple;
+            }
+
+            .main .box {
+                width: 45%;
+            }
+
+        }
+        @media screen and (max-width:520px) {
+            .main{
+                background: rgb(128, 0, 0);
+            }
+            .main .box{
+                width: 95%;
+            }
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <box class="box"></box>
+        <box class="box"></box>
+        <box class="box"></box>
+        <box class="box"></box>
+    </div>
+
+</body>
+
+</html>
